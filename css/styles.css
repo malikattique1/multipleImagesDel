@@ -1,0 +1,84 @@
+/* 
+html, body {
+    background-color:#F8F9FA;
+    height: 100%;
+    margin: 0;
+  }
+  
+  .wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  .footer {
+    flex-shrink: 0;
+  } */
+
+
+
+  html, body {
+    background-color:#F8F9FA;
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
+  
+
+
+
+
+
+
+tbody>tr>td:nth-child(3):hover{
+    color:#4444ee;
+    text-decoration:underline;
+}
+
+tbody>tr>td:nth-child(4):hover{
+    color:#4444ee;
+    text-decoration:underline;
+}
+
+#stickerpacks-table tbody>tr>td:nth-child(5):hover{
+    color:#4e9ccf;
+    text-decoration:underline;
+}
+
+.loading-spinner {
+    display: none;
+}
+.loading-spinner.active {
+    display: inline-block; 
+}
+
+
+.modal {
+    top: 80px;
+    z-index: 10040;
+}
+.select2-container--open {
+    z-index: 99999 !important;
+}
+
+.imginsidetable{
+    z-index: 9999933377 !important;
+}
+
+
